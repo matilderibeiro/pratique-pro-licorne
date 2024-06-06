@@ -11,44 +11,57 @@
     <header>
       <div class="container">
         <div class="row">
-          <div class="menu">
-            <div class="logo">
-              <img src="../img//licorne-logo.png" alt="logo lic%rne" />
+          <div class="menu header-img">
+            <div class="navigation">
+              <div class="logo">
+                <img class="logo-nav" src="../img//licorne-logo.png" alt="logo lic%rne" />
+              </div>
+              <nav>
+                <a class="navigation-option category" href="#category"
+                  >catégorie</a
+                >
+                <a class="navigation-option history" href="#">notre histoire</a>
+                <a class="navigation-option bier" href="#">nos bières</a>
+                <a class="navigation-option shop" href="#">shop</a>
+                <a class="navigation-option localisation" href="#"
+                  >points de vente</a
+                >
+                <a class="navigation-option contact" href="#">contact</a>
+              </nav>
+              <div class="icon">
+                <img class="icon-shop" src="../img/panier-icon.png" alt="icon panier" />
+                <img class="icon-login" src="../img/utilisateur-icon.png" alt="icon utilisateur" />
+              </div>
             </div>
-            <nav class="navigation">
-              <a class="navigation-option category" href="#category"
-                >catégorie</a
-              >
-              <a class="navigation-option history" href="#">notre histoire</a>
-              <a class="navigation-option bier" href="#">nos bières</a>
-              <a class="navigation-option shop" href="#">shop</a>
-              <a class="navigation-option localisation" href="#"
-                >points de vente</a
-              >
-              <a class="navigation-option contact" href="#">contact</a>
-            </nav>
-            <div class="icon">
-              <img src="../img/panier-icon.png" alt="icon panier" />
-              <img src="../img/utilisateur-icon.png" alt="icon utilisateur" />
+            <div>
+              <div class="col-12">
+                <img class="logo-header" src="../img/licorne-logo.png" alt="logo lic%rne" />
+                <p class="slogan">La magie de la bière, sans l'ivresse !</p>
+              </div>
+              <div class="header-bier-img">
+                <img
+                  class="img-bier blond"
+                  src="../img/licorne-mockup-Blonde.png"
+                  alt="bière licorne blonde"
+                />
+                <img
+                  class="img-bier dark"
+                  src="../img/licorne-mockup-brune.png"
+                  alt="bière licorne brune"
+                />
+                <img 
+                  class="img-bier ipa"
+                  src="../img/licorne-mockup-IPA.png" 
+                  alt="bière licorne ipa" />
+              </div>
             </div>
-            <img src="../img/licorne-logo.png" alt="logo lic%rne" />
-            <div class="col-10 offset-1">
-              <p class="slogan">La magie de la bière, sans l'ivresse !</p>
-            </div>
-            <img
-              src="../img/licorne-mockup-Blonde.png"
-              alt="bière licorne blonde"
-            />
-            <img
-              src="../img/licorne-mockup-brune.png"
-              alt="bière licorne brune"
-            />
-            <img src="../img/licorne-mockup-IPA.png" alt="bière licorne ipa" />
           </div>
         </div>
       </div>
-      <div class="container-carousel">
-        <div class="container-carousel-text">
+      <div class="carousel-container">
+        <div class="carousel-container-text">
+          <p class="carousel-text">%sans alcool%</p>
+          <p class="carousel-text">%sans alcool%</p>
           <p class="carousel-text">%sans alcool%</p>
           <p class="carousel-text">%sans alcool%</p>
           <p class="carousel-text">%sans alcool%</p>
@@ -59,10 +72,10 @@
     </header>
     <main>
       <div class="container-history">
-        <h2>
+        <h2 class="col-3 offset-1">
           Notre Histoire
         </h2>
-        <p class="text-intro">
+        <p class="text-intro col-4 offset-1">
           La Brasserie Licorne est située à Estavayer-le-Lac, dans une bâtisse 
           médiévale qui ajoute un charme historique à l'expérience de ses visiteurs. 
           Dirigée par Sylvain et son équipe de trois personnes, la brasserie se distingue 
@@ -70,19 +83,21 @@
           utilise exclusivement des céréales issues de la production locale, garantissant 
           ainsi la qualité et l'authenticité de ses produits.
         </p>
-        <button class="button-orange">
+        <button class="button-orange col-1 offset-1">
           En savoir plus
         </button>
       </div>
-      <img src="../img/img-violet-coriandre.png" alt="coriandre img bichromie violet">
-      <img src="../img/img-orange-grains.png" alt="grains img bichromie orange">
-      <img src="../img/img-jaune-houblon.png" alt="houblon img bichromie jaune">
+      <img class="img-coriandre" src="../img/img-violet-coriandre.png" alt="coriandre img bichromie violet">
+      <img class="img-grains" src="../img/img-orange-grains.png" alt="grains img bichromie orange">
+      <img class="img-houblon" src="../img/img-jaune-houblon.png" alt="houblon img bichromie jaune">
       <div class="title-intro-bier">
-        <h2>
+        <h2 class="col-9 offset-1">
           0% alcool
-          <br>
+        </h2>
+        <h2 class="title-h2-purple col-9 offset-1">
           nos
-          <br>
+        </h2>
+        <h2 class="title-h2-yellow col-9 offset-1">
           bières
         </h2>
         <p class="text-intro">
@@ -167,7 +182,8 @@
         voir les offres
       </button>
     </main>
-    <footer></footer>
+    <footer>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
