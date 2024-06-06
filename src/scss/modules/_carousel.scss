@@ -1,28 +1,30 @@
 .carousel-container {
   position: relative;
   overflow: hidden;
-  animation: carousel 10s infinite linear;
 }
 
 .carousel-container-text {
   display: flex;
+  animation: carousel 30s infinite linear;
 }
 
 .carousel-text {
   background: var(--orange-94);
-  padding: 24px 50px 24px 0;
+  padding: 24px 0px 24px 0;
+  width: 25%;
   gap: 10px;
   color: var(--beige, #f3f0e6);
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
+  flex-shrink: 0;
 }
 
 @keyframes carousel {
   0% {
-    transform: translateX(-500px);
+    transform: translateX(-1843px);
   }
   100% {
-    transform: translateX(100px);
+    transform: translateX(0px);
   }
 }

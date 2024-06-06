@@ -1,0 +1,12 @@
+button {
+  border-radius: 50px;
+  background: var(--orange);
+  color: var(--beige);
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 282px;
+  height: 74px;
+  border: none;
+  box-shadow: 1px 1px 20px 0px var(--violet, #7322ef);
+}

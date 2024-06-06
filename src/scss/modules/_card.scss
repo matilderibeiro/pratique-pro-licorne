@@ -1,9 +1,16 @@
 .card-container {
   background-image: url(../../img/mosaique-B.png);
   mix-blend-mode: darken;
-  background-repeat: no-repeat;
 }
 
 .card-blonde {
   background-color: var(--orange);
+}
+
+.card-brune {
+  background-color: var(--purple);
+}
+
+.card-ipa {
+  background-color: var(--yellow);
 }
