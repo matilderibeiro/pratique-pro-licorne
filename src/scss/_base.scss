@@ -3,6 +3,13 @@
 // ==================================== */
 
 :root {
+  --gray-dark: #191919;
+  --beige: #f3f0e6;
+  --purple: #7322ef;
+  --orange: #ff3f02;
+  --yellow: #f1ad21;
+  --orange-94: #ff3f02f0;
+  --beige-94: #f3f0e6f0;
 }
 
 /* ====================================
@@ -17,6 +24,9 @@
 
 html {
   font-size: 16px;
+  background: var(--beige);
+  font-family: "Montreal", sans-serif;
+  color: var(--gray-dark);
 }
 
 body {
@@ -42,3 +52,14 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+h2,
+p {
+  color: var(--orange);
+}
+
+h2 {
+  font-size: 200px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
