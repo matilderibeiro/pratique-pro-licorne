@@ -1,16 +1,28 @@
 .card-container {
+  margin-top: 127px;
   background-image: url(../../img/mosaique-B.png);
   mix-blend-mode: darken;
 }
 
 .card-blonde {
-  background-color: var(--orange);
+  display: flex;
+  flex-direction: row;
+  background: var(--orange);
+  margin-top: 62px;
 }
 
 .card-brune {
-  background-color: var(--purple);
+  display: flex;
+  flex-direction: row-reverse;
+  background: var(--purple);
 }
 
 .card-ipa {
-  background-color: var(--yellow);
+  display: flex;
+  flex-direction: row;
+  background: var(--yellow);
+}
+
+.card {
+  margin-bottom: 62px;
 }

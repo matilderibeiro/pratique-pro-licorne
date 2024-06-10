@@ -64,10 +64,11 @@ h3 {
   font-size: 25px;
   font-weight: 400;
   text-transform: uppercase;
+  margin: 111px 0 29px 0;
 }
 
 h2 {
-  font-size: 200px;
+  font-size: 170px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -78,4 +79,9 @@ strong {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  background: var(--gray-dark);
+  color: var(--beige);
 }
