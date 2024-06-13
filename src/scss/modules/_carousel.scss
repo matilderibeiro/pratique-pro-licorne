@@ -28,3 +28,19 @@
     transform: translateX(0px);
   }
 }
+
+.carousel-shop {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  animation: carousel-shop 20s infinite linear;
+}
+
+@keyframes carousel-shop {
+  0% {
+    transform: translateX(1500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}

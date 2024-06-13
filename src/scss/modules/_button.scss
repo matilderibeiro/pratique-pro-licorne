@@ -15,12 +15,23 @@ button {
   margin-top: 45px;
 }
 
+.button-orange:hover {
+  background: var(--beige);
+  color: var(--orange);
+  margin-top: 45px;
+}
+
 .button-white {
   box-shadow: 1px 1px 20px 0px var(--beige-94);
   border-radius: 50px;
   background: var(--beige);
   color: var(--purple);
   margin-top: 116px;
+}
+
+.button-white:hover {
+  background: var(--purple);
+  color: var(--beige);
 }
 
 .button-footer {
@@ -30,4 +41,16 @@ button {
   border: 1px solid var(--beige);
   background: var(--gray-dark);
   margin-top: 40px;
+}
+
+.button-footer:hover {
+  box-shadow: 1px 1px 20px 0px var(--beige-94);
+  background: var(--beige);
+  color: var(--gray-dark);
+}
+
+.button-shop {
+  display: flex;
+  justify-content: center;
+  padding: 75px 0 112px 0;
 }

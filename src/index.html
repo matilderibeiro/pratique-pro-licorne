@@ -52,18 +52,21 @@
             </div>
             <div>
               <div class="col-12">
-                <img
-                  class="logo-header col-7 offset-3"
-                  src="../img/licorne-logo.png"
-                  alt="logo lic%rne"
-                />
-                <p class="slogan">La magie de la bière, sans l'ivresse !</p>
-              </div>
-              <div class="header-bier-img col-7 offset-3">
-                <img
-                  src="../img/Licorne-Mockup-3.png"
-                  alt="image des trois bières"
-                />
+                <div class="logo-top">
+                  <img
+                    class="logo-header"
+                    src="../img/licorne-logo.png"
+                    alt="logo lic%rne"
+                  />
+                  <p class="slogan">La magie de la bière, sans l'ivresse !</p>
+                  <div class="header-bier-img">
+                    <img
+                      class="img-header-bier"
+                      src="../img/Licorne-Mockup-3.png"
+                      alt="image des trois bières"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -97,20 +100,22 @@
         </p>
         <button class="button-orange col-2 offset-1">En savoir plus</button>
       </div>
-      <img
-        class="img-coriandre"
-        src="../img/img-violet-coriandre.png"
-        alt="coriandre img bichromie violet"
-      />
+      <div class="img-plant">
+        <img
+          class="img-coriandre"
+          src="../img/img-violet-coriandre.png"
+          alt="coriandre img bichromie violet"
+        />
+        <img
+          class="img-grains"
+          src="../img/img-orange-grains.png"
+          alt="grains img bichromie orange"
+        />
+      </div>
       <img
         class="img-houblon"
         src="../img/img-jaune-houblon.png"
         alt="houblon img bichromie jaune"
-      />
-      <img
-        class="img-grains"
-        src="../img/img-orange-grains.png"
-        alt="grains img bichromie orange"
       />
       <div class="title-intro-bier">
         <h2 class="col-9 offset-1">0% alcool</h2>
@@ -147,7 +152,7 @@
         </div>
         <div class="card card-brune col-9">
           <img
-            class="img-card"
+            class="img-card img-card-brune"
             src="../img/licorne-mockup-brune.png"
             alt="bière licorne brune"
           />
@@ -181,16 +186,24 @@
           </div>
         </div>
       </div>
-      <h2 class="title-h2-yellow col-5 offset-5">Shop</h2>
-      ???
-      <button class="button-orange col-3 offset-4">voir les offres</button>
+      <div class="title-shop">
+        <h2 class="title-h2-yellow">Shop</h2>
+      </div>
+      <div class="carousel-shop">
+        <img src="../img/blonde.png" alt="img bière blonde" />
+        <img src="../img/Brune.png" alt="img bière blonde" />
+        <img src="../img/IPA.png" alt="img bière blonde" />
+      </div>
+      <div class="button-shop">
+        <button class="button-orange">voir les offres</button>
+      </div>
     </main>
     <footer>
       <div class="footer-content">
-        <div class="logo-footer col-2">
+        <div class="logo-footer col-3">
           <img src="../img/licorne-white-logo.png" alt="logo lic%rne" />
         </div>
-        <div class="footer-address col-3">
+        <div class="footer-address col-5">
           <h3 class="footer-title">Adresse de la Brasserie :</h3>
           <p class="footer-p">
             Licorne
@@ -224,7 +237,9 @@
       <div class="footer-info-technical-container">
         <div class="footer-info-technical">
           <a href="#">Politique de confidentialité</a>
-          <a href="#">Conditions générales de vente</a>
+          <a class="footer-contitions" href="#"
+            >Conditions générales de vente</a
+          >
         </div>
         <div class="footer-copyright">
           <p class="footer-p">© 2024 Licorne. Tous droits réservés.</p>

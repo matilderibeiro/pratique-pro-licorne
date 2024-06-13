@@ -8,6 +8,7 @@
   width: 709px;
   height: 468px;
   flex-shrink: 0;
+  margin-left: -170px;
 }
 
 .img-grains {
@@ -17,6 +18,7 @@
   width: 1052px;
   height: 889px;
   flex-shrink: 0;
+  margin: -250px 0 0 600px;
 }
 
 .img-houblon {
@@ -25,10 +27,26 @@
   transform: rotate(43.796deg);
   flex-shrink: 0;
   position: absolute;
+  margin: 50px 0 0 530px;
 }
 
 .img-card {
   width: 671px;
   height: 689px;
   flex-shrink: 0;
+  margin-left: -335px;
+}
+
+.img-card-brune {
+  margin-right: -335px;
+}
+
+.img-header-bier {
+  display: flex;
+  justify-self: center;
+}
+
+.img-plant {
+  display: flex;
+  flex-direction: row;
 }
