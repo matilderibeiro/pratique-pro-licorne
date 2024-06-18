@@ -61,21 +61,33 @@
 }
 
 .img-section-shop .button-shop-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 29px;
   opacity: 0;
   transition-duration: 0.3s;
 }
 
 .img-section-shop:hover .button-shop-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 100%;
   transition-delay: 0s;
 }
 
 .img-section-shop:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition-duration: 0.3s;
   transition-delay: 0s;
 }
 
 .img-section-shop:hover img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 30%;
 }
