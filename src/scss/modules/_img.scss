@@ -19,6 +19,7 @@
   height: 889px;
   flex-shrink: 0;
   margin: -250px 0 0 600px;
+  z-index: -1;
 }
 
 .img-houblon {
@@ -28,6 +29,7 @@
   flex-shrink: 0;
   position: absolute;
   margin: 50px 0 0 530px;
+  z-index: -1;
 }
 
 .img-card {
@@ -49,4 +51,31 @@
 .img-plant {
   display: flex;
   flex-direction: row;
+}
+
+.img-section-shop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-section-shop .button-shop-img {
+  font-size: 29px;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.img-section-shop:hover .button-shop-img {
+  opacity: 100%;
+  transition-delay: 0s;
+}
+
+.img-section-shop:hover {
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+}
+
+.img-section-shop:hover img {
+  opacity: 30%;
 }

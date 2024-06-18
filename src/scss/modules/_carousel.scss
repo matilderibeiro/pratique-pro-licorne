@@ -1,6 +1,7 @@
 .carousel-container {
   position: relative;
   overflow: hidden;
+  z-index: -1;
 }
 
 .carousel-container-text {
@@ -30,17 +31,69 @@
 }
 
 .carousel-shop {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.carousel-shop figure {
   display: flex;
   flex-direction: row;
   position: relative;
-  animation: carousel-shop 20s infinite linear;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
 }
 
-@keyframes carousel-shop {
+.carousel-shop figure img {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.carousel-shop {
+  width: 130%;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+.carousel-shop figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  animation: 20s slidy infinite;
+}
+
+@keyframes slidy {
   0% {
-    transform: translateX(1500px);
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -200%;
+  }
+  45% {
+    left: -200%;
+  }
+  50% {
+    left: -300%;
+  }
+  70% {
+    left: -300%;
+  }
+  75% {
+    left: -400%;
+  }
+  95% {
+    left: -400%;
   }
   100% {
-    transform: translateX(0px);
+    left: -500%;
   }
 }
