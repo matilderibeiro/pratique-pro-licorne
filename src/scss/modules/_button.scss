@@ -56,7 +56,11 @@ button {
 }
 
 .button-shop-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  right: 25vw;
+  width: 282px;
+  height: 74px;
+  flex-shrink: 0;
+  box-shadow: 1px 1px 20px 0px var(--beige-94);
+  color: var(--violet, #7322ef);
 }

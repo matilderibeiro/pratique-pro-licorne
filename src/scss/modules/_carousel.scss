@@ -35,18 +35,9 @@
   max-width: 1000px;
 }
 
-.carousel-shop figure {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: 500%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  text-align: left;
-}
-
 .carousel-shop figure img {
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: auto;
   float: left;
@@ -55,10 +46,12 @@
 .carousel-shop {
   width: 130%;
   max-width: 1000px;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 .carousel-shop figure {
+  display: flex;
+  flex-direction: row;
   position: relative;
   width: 500%;
   margin: 0;
