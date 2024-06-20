@@ -9,30 +9,30 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container navigation">
         <div class="row">
-          <div class="menu header-img">
-            <div class="navigation">
-              <div class="logo col-1">
-                <img
-                  class="logo-nav"
-                  src="../img//licorne-logo.png"
-                  alt="logo lic%rne"
-                />
-              </div>
-              <nav class="col-7">
-                <a class="navigation-option category" href="#category"
-                  >catégorie</a
-                >
-                <a class="navigation-option history" href="#">notre histoire</a>
-                <a class="navigation-option bier" href="#">nos bières</a>
-                <a class="navigation-option shop" href="#">shop</a>
-                <a class="navigation-option localisation" href="#"
-                  >points de vente</a
-                >
-                <a class="navigation-option contact" href="#">contact</a>
-              </nav>
-              <div class="icon col-1">
+          <div class="col-8">
+            <div class="menu">
+              <img
+                class="logo-nav"
+                src="../img//licorne-logo.png"
+                alt="logo lic%rne"
+              />
+              <a class="navigation-option category" href="#category"
+                >catégorie</a
+              >
+              <a class="navigation-option history" href="#">notre histoire</a>
+              <a class="navigation-option bier" href="#">nos bières</a>
+              <a class="navigation-option shop" href="#">shop</a>
+              <a class="navigation-option localisation" href="#"
+                >points de vente</a
+              >
+              <a class="navigation-option contact" href="#">contact</a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="menu">
+              <div class="icon col-3">
                 <a href="#">
                   <img
                     class="icon-shop"
@@ -48,12 +48,18 @@
                   />
                 </a>
               </div>
-              <div class="navigation-language col-2">
+              <div class="navigation-language col-3">
                 <a href="#">fr |</a>
                 <a href="#">de |</a>
                 <a href="#">en</a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="header-img">
             <div>
               <div class="col-12">
                 <div class="logo-top">
@@ -91,20 +97,26 @@
       </div>
     </header>
     <main>
-      <div class="container-history">
-        <h2 class="col-3 offset-1">Notre Histoire</h2>
-        <p class="text-intro col-4 offset-1">
-          La Brasserie Licorne est située à Estavayer-le-Lac, dans une bâtisse
-          médiévale qui ajoute un charme historique à l'expérience de ses
-          visiteurs. Dirigée par Sylvain et son équipe de trois personnes, la
-          brasserie se distingue par son engagement envers la production de
-          bières biologiques. La brasserie utilise exclusivement des céréales
-          issues de la production locale, garantissant ainsi la qualité et
-          l'authenticité de ses produits.
-        </p>
-        <a href="#">
-          <button class="button-orange col-2 offset-1">En savoir plus</button>
-        </a>
+      <div class="container">
+        <div class="row">
+          <div class="container-history">
+            <h2 class="col-3 offset-1">Notre Histoire</h2>
+            <p class="text-intro col-4 offset-1">
+              La Brasserie Licorne est située à Estavayer-le-Lac, dans une
+              bâtisse médiévale qui ajoute un charme historique à l'expérience
+              de ses visiteurs. Dirigée par Sylvain et son équipe de trois
+              personnes, la brasserie se distingue par son engagement envers la
+              production de bières biologiques. La brasserie utilise
+              exclusivement des céréales issues de la production locale,
+              garantissant ainsi la qualité et l'authenticité de ses produits.
+            </p>
+            <a href="#">
+              <button class="button-orange col-2 offset-1">
+                En savoir plus
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
       <div class="img-plant">
         <img
@@ -123,39 +135,48 @@
         src="../img/img-jaune-houblon.png"
         alt="houblon img bichromie jaune"
       />
-      <div class="title-intro-bier">
-        <h2 class="col-9 offset-1">0% alcool</h2>
-        <h2 class="title-h2-purple col-9 offset-1">nos</h2>
-        <h2 class="title-h2-yellow col-9 offset-1">bières</h2>
-        <p class="text-intro col-4 offset-1">
-          Découvrez Lic%rne, où l'artisanat et la qualité se rencontrent pour
-          vous offrir des bières 100% <strong>sans alcool</strong> et 100%
-          régionales. Nos produits sont soigneusement élaborés pour inaugurer
-          une nouvelle ère, plus saine et plus écologique. Plongez dans
-          l'univers rafraîchissant de nos trois bières phares et savourez la
-          sensation estivale qu'elles procurent. Explorez ci-dessous nos
-          sélections et laissez-vous séduire par une expérience inégalée.
-        </p>
+      <div class="container">
+        <div class="row">
+          <div class="title-intro-bier">
+            <h2 class="col-12 offset-1">0% alcool</h2>
+            <h2 class="title-h2-purple col-9 offset-1">nos</h2>
+            <h2 class="title-h2-yellow col-9 offset-1">bières</h2>
+            <p class="text-intro col-5 offset-1">
+              Découvrez Lic%rne, où l'artisanat et la qualité se rencontrent
+              pour vous offrir des bières 100% <strong>sans alcool</strong> et
+              100% régionales. Nos produits sont soigneusement élaborés pour
+              inaugurer une nouvelle ère, plus saine et plus écologique. Plongez
+              dans l'univers rafraîchissant de nos trois bières phares et
+              savourez la sensation estivale qu'elles procurent. Explorez
+              ci-dessous nos sélections et laissez-vous séduire par une
+              expérience inégalée.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="card-container">
-        <div class="card card-blonde col-9 offset-3">
-          <img
-            class="img-card"
-            src="../img/licorne-mockup-Blonde.png"
-            alt="bière licorne blonde"
-          />
-          <div class="contained-card-blond">
-            <h3>Blonde | Bière sans alcool bio</h3>
-            <p class="contained-p">
-              INGRÉDIENTS: Eau, malt d'orge, colorant : E150c, arôme naturel,
-              houblon. Allergènes : Gluten.
-            </p>
-            <p class="contained-p contained-warning">
-              À conserver au frais et à l’abri de la lumière.
-            </p>
-            <a href="#">
-              <button class="button-white">en savoir plus</button>
-            </a>
+        <div class="container">
+          <div class="row">
+            <div class="card card-blonde col-10 offset-3">
+              <img
+                class="img-card"
+                src="../img/licorne-mockup-Blonde.png"
+                alt="bière licorne blonde"
+              />
+              <div class="contained-card-blond">
+                <h3>Blonde | Bière sans alcool bio</h3>
+                <p class="contained-p">
+                  INGRÉDIENTS: Eau, malt d'orge, colorant : E150c, arôme
+                  naturel, houblon. Allergènes : Gluten.
+                </p>
+                <p class="contained-p contained-warning">
+                  À conserver au frais et à l’abri de la lumière.
+                </p>
+                <a href="#">
+                  <button class="button-white">en savoir plus</button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card card-brune col-9">
@@ -176,23 +197,27 @@
             <button class="button-white">en savoir plus</button>
           </div>
         </div>
-        <div class="card card-ipa col-9 offset-3">
-          <img
-            class="img-card"
-            src="../img/licorne-mockup-IPA.png"
-            alt="bière licorne ipa"
-          />
-          <div class="contained-card-ipa">
-            <h3>Ipa gluten free | Bière sans alcool bio</h3>
-            <p class="contained-p">
-              INGRÉDIENTS: Houblon agrume, eau, coriandre, malt de seigle.
-            </p>
-            <p class="contained-p contained-warning">
-              À conserver au frais et à l’abri de la lumière.
-            </p>
-            <a href="#">
-              <button class="button-white">en savoir plus</button>
-            </a>
+        <div class="container">
+          <div class="row">
+            <div class="card card-ipa col-10 offset-3">
+              <img
+                class="img-card"
+                src="../img/licorne-mockup-IPA.png"
+                alt="bière licorne ipa"
+              />
+              <div class="contained-card-ipa">
+                <h3>Ipa gluten free | Bière sans alcool bio</h3>
+                <p class="contained-p">
+                  INGRÉDIENTS: Houblon agrume, eau, coriandre, malt de seigle.
+                </p>
+                <p class="contained-p contained-warning">
+                  À conserver au frais et à l’abri de la lumière.
+                </p>
+                <a href="#">
+                  <button class="button-white">en savoir plus</button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
