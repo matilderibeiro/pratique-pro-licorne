@@ -64,3 +64,8 @@ button {
   box-shadow: 1px 1px 20px 0px var(--beige-94);
   color: var(--violet, #7322ef);
 }
+
+.button-shop-img:hover {
+  background: var(--purple);
+  color: var(--beige);
+}
