@@ -9,8 +9,10 @@
 .title-shop {
   display: flex;
   justify-content: center;
+  margin-top: 32px;
 }
 
-.title-intro-bier {
+.container .title-intro-bier {
+  margin-top: -95px;
   z-index: -3;
 }
