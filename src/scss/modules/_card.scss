@@ -10,18 +10,27 @@
   flex-direction: row;
   background: var(--orange);
   margin-top: 62px;
+  width: 1088px;
+  height: 587px;
+  flex-shrink: 0;
 }
 
 .card-brune {
   display: flex;
   flex-direction: row-reverse;
   background: var(--purple);
+  width: 1088px;
+  height: 587px;
+  flex-shrink: 0;
 }
 
 .card-ipa {
   display: flex;
   flex-direction: row;
   background: var(--yellow);
+  width: 1088px;
+  height: 587px;
+  flex-shrink: 0;
 }
 
 .card {
